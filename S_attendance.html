@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Student Attendance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+    /*subject table*/
+    table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:1px solid #CCCCCC;}
+table thead th{color:#FFFFFF; background-color:#666666; border:1px solid #CCCCCC; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
+table tbody td{vertical-align:middle; border-collapse:collapse; border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC;}
+table thead th, table tbody td{padding:5px; border-collapse:collapse;}
+table tbody tr:nth-child(odd){color:#666666; background-color:#F7F7F7;}
+table tbody tr:nth-child(even){color:#666666; background-color:#E8E8E8;}
+
+.table_attendance{width:600px;}
+.table_attendance th:nth-child(1){width:200px;}
+.table_attendance th:nth-child(2){width:400px;}
+.table_attendance input[type="text"] {width:380px;}
+
+::-webkit-input-placeholder{color: #B0B0B0;}
+::-moz-placeholder{color: #B0B0B0;}
+:-ms-input-placeholder{color: #B0B0B0;}
+:-moz-placeholder{color: #B0B0B0;}
+    </style>
+</head>
+<body>
+        <p>Attendance Details.</p>
+        Academic Year & Semester: <input type="text" name="academic Year & Semester" value="" required maxlength="254" />
+        <table class="table_attendance">
+            <thead>
+                <tr>
+                    <th>Index No:</th>
+                    <th>Subject Code</th>
+                    <th>Attendance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                            <input type="text" name="email" value="" required maxlength="254" />
+                    </td>
+                    <td>
+                        <input type="text" name="email" value="" required maxlength="10" />
+                    </td>
+                    <td>
+                            <input type="text" name="email" value="" required maxlength="50" />
+                        </td>
+                </tr>
+</body>
+</html>
